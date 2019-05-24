@@ -16,8 +16,10 @@ while dlugosc>0:
             e=int(input())
             print("Ile paczek obstawiasz na odpowiedź F?")
             f=int(input())
-            if  b!=0:
-                print("B to poprawna odpowiedź! Masz teraz", b*25000, "pieniędzy")
+            if b!=0:
+                    suma_paczek=suma_paczek-a-c-d-e
+                    dlugosc=dlugosc-1
+                print("B to poprawna odpowiedź! Masz teraz", b*25000, "pieniędzy, czyli: ", suma_paczek, "paczek.")
             elif b==0:
                 print("Przykro mi, to zła odpowiedź. Niestety, nie udało Ci się wygrać ani złotówki!")
                 break    
