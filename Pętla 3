@@ -1,4 +1,4 @@
-elif wylosowana==lista[3]:
+elif wylosowana==lista[2]:
             print(wylosowana)
             print("Czas start!")
             time.sleep(60)
